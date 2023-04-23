@@ -1,77 +1,105 @@
+/* Estilo para la barra de navegación superior */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 20px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
 
-  
-  h1 {
-    margin: 0;
-  }
-  
-  nav {
-    background-color: #5C3D5A;
-    height: 56px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 16px;
-  }
-  
-  .fb-logo a {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 600;
-    text-decoration: none;
-  }
-  
-  .fb-search form {
-    display: flex;
-    align-items: center;
-  }
-  
-  .fb-search input[type="text"] {
-    border: none;
-    background-color: #f0f2f5;
-    padding: 8px 12px;
-    border-radius: 24px;
-    font-size: 16px;
-    width: 300px;
-    margin-right: 12px;
-  }
-  
-  .fb-search button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .fb-search button i {
-    color: #fff;
-    font-size: 20px;
-  }
-  
-  .fb-menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .fb-menu li {
-    margin-right: 16px;
-  }
-  
-  .fb-menu li:last-child {
-    margin-right: 0;
-  }
-  
-  .fb-menu a {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    text-decoration: none;
-    padding: 8px 12px;
-    border-radius: 24px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .fb-menu a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-  }
-  
+.logo img {
+  height: 40px;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.search-bar input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+}
+
+.search-bar button {
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #333;
+}
+
+.nav-buttons a {
+  padding: 8px;
+  border-radius: 3px;
+  background-color: #666;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilo para la barra lateral */
+.sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #333;
+  text-align: left;
+  font-size: 16px;
+}
+
+.sidebar .icons a {
+  display: block;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar .icons a:hover {
+  color: #666;
+}
+
+/* Estilo para los rectángulos */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: 250px;
+  margin-right: 20px;
+}
+
+.rectangulo {
+  flex: 1;
+  height: 200px;
+  margin-right: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
