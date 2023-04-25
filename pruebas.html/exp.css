@@ -50,20 +50,57 @@ nav ul li a {
 
 .rectangulos {
   display: flex;
-  justify-content: space-around;
-  padding: 20px;
+  justify-content: right;
+    padding: 20px;
   background-color: #eee;
 }
 
 .rectangulo {
-  width: fit-content;
+  margin-right: 20px;
+  width: 500px;
   height: auto;
   background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px #333;
   border: 1px solid #333;
-  padding: 20px;
+  padding: 50px;
   text-align: center;
 }
 
 .rectangulo h3 {
   margin-bottom: 10px;
 }
+
+
+
+
+
+.slider-container {
+  width: 100%;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  cursor: pointer;
+}
+
