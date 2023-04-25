@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to left, #00ebdf, #79dd6b); 
+    overflow-x: hidden;
+}
+
+main{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #fffefe;
+}
+
+h1{
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+p, li{
+    text-align: justify;
+    font-size: large;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex; 
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 2rem;
+    padding-right: 2rem; 
+    margin-bottom: 1%;
+
+    justify-content: center; 
+    align-items: center; 
+    border-bottom: 1px solid rgb(224, 28, 28);
+    gap: 3svw;
+}
+
+.active{
+    color: #000 !important; 
+    font-size: 1.5rem;
+    line-height: 2rem; 
+    z-index: 5;
+}
+
+
+nav > span:hover {
+    cursor: pointer;
+}
+
+.navbar-link{
+    transition: ease-in-out 150ms;
+    color: #00f7ff; 
+}
+.navbar-link:hover {
+    scale: 1.25;
+}
+
+.navbar-arrow-right{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    padding-left: 0.75rem;
+}
+
+.navbar-arrow-left{
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 0.75rem;
+}
+
+.surrounding-div {
+    position: absolute;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    z-index: 5;
+}
+
+.blur-effect {
+  filter: blur(5px);
+}
+
+object{
+    display: none;
+    width: 100%; 
+    height: 90svh;
+} 
+
+
+img{
+    width: 500px;
+    border: 15px solid black;
+    border-image-width: 15px;
+    border-image-slice: 100;
+    border-image-outset: 0px;
+    border-image-repeat: repeat;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex; 
+  backdrop-filter: blur(10px);
+}
+footer {
+    background-color: #faf8ee;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
